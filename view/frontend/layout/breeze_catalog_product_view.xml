@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="breeze.container">
+            <block class="Swissup\Breeze\Block\HtmlTemplate" name="breeze.MageWorx_ShippingCalculatorBase_shipping-calculator" template="MageWorx_ShippingCalculatorBase::shipping-calculator.html" />
+            <block class="Swissup\Breeze\Block\HtmlTemplate" name="breeze.MageWorx_ShippingCalculatorBase_view_header_short-description" template="MageWorx_ShippingCalculatorBase::view/header/short-description.html" />
+        </referenceContainer>
+    </body>
+</page>

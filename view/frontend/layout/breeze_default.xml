@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breeze.js">
+            <arguments>
+                <argument name="bundles" xsi:type="array">
+                    <item name="product" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="Swissup_BreezeMageworxShippingcalculator/js/view/shipping-calculator" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeMageworxShippingcalculator/js/view/shipping-calculator</item>
+
+                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
+                                    <param name="path">mageworx_shipping_calculator/main/enabled</param>
+                                </item>
+                            </item>
+
+                            <item name="MageWorx_ShippingCalculatorBase/js/view/description" xsi:type="array">
+                                <item name="path" xsi:type="string">MageWorx_ShippingCalculatorBase/js/view/description</item>
+
+                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
+                                    <param name="path">mageworx_shipping_calculator/main/enabled</param>
+                                </item>
+                            </item>
+
+                            <item name="MageworxShippingcalculatorBreeze" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeMageworxShippingcalculator/js/breezemap</item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
